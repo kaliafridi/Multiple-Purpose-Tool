@@ -3,7 +3,10 @@ from itertools import product
 import requests
 
 def welcome():
-    print("WELCOME TO RAYYAN PROJECT!")
+    print(                                                                "WELCOME TO RAYYAN PROJECT!")
+
+
+    print("Updates Will Come SOON!!")
 
 def command_cheat_sheet():
     cheat_sheet = {
@@ -16,7 +19,26 @@ def command_cheat_sheet():
         'mv': 'Move/rename files or directories',
         'chmod': 'Change the permissions of files or directories',
         'grep': 'Search text using patterns',
-        'find': 'Search for files in a directory hierarchy'
+        'find': 'Search for files in a directory hierarchy',
+        'cat': 'Concatenate files and print on the standard output',
+        'echo': 'Display a line of text',
+        'man': 'Display the user manual of any command',
+        'sudo': 'Execute a command as the superuser',
+        'apt-get': 'Package management command (Debian based)',
+        'df': 'Report file system disk space usage',
+        'du': 'Estimate file space usage',
+        'free': 'Display amount of free and used memory in the system',
+        'ps': 'Report a snapshot of the current processes',
+        'kill': 'Send a signal to a process',
+        'netstat': 'Print network connections, routing tables, interface statistics',
+        'ifconfig': 'Configure a network interface',
+        'wget': 'Retrieve content from web servers',
+        'curl': 'Transfer data from or to a server',
+        'ssh': 'OpenSSH SSH client (remote login program)',
+        'scp': 'Secure copy (remote file copy program)',
+        'tar': 'An archiving utility',
+        'gzip': 'Compress or expand files',
+        'unzip': 'List, test and extract compressed files in a ZIP archive'
     }
     cmd = input("Enter the command you want to know about: ")
     print(cheat_sheet.get(cmd, "No information available for this command."))
