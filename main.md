@@ -14,4 +14,7 @@ This project includes a Python script that provides a console-based interface wi
 Ensure you have Python 3 installed on your machine. Then, run the script using:
 
 ```bash
-python rayyan_project.py
+git clone https://github.com/kaliafridi/Multiple-Purpose-Tool.git
+cd Multiple-Purpose-Tool
+python3 MultiplePurposeTool.py
+
